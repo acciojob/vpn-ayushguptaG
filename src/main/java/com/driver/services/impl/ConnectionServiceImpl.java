@@ -22,7 +22,7 @@ public class ConnectionServiceImpl implements ConnectionService {
     @Override
     public User connect(int userId, String countryName) throws Exception{
 
-        User user1= userRepository2.findById(userId).get()
+        User user1= userRepository2.findById(userId).get();
         String coName= countryName.toUpperCase();
 
         if(user1.getMaskedIp()!= null){
