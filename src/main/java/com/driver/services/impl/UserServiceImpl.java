@@ -56,7 +56,7 @@ public class UserServiceImpl implements UserService {
         }
 
         country.setUser(user);
-        user.setCountry(country);
+        user.setOriginalCountry(country);
         user.setConnected(false);
 //        userRepository3.save(user);
 
