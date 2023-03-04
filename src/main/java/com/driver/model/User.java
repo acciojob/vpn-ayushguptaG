@@ -106,11 +106,11 @@ public class User {
         this.connectionList = connectionList;
     }
 
-    public Country getOriginalCountry() {
+    public Country getCountry() {
         return originalCountry;
     }
 
-    public void setOriginalCountry(Country country) {
+    public void setCountry(Country country) {
         this.originalCountry= country;
     }
 }
